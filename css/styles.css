@@ -117,3 +117,39 @@ font-size: 24px;
 .copy {
     text-align: center;
 }
+
+.container {
+    background: rgb(241, 241, 241);
+}
+
+@media screen and (min-width: 768px) {
+    .top-form-part label {
+        display: inline-block;
+    }
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-form-part input,
+.top-form-part select {
+    width: 70%;
+}
+
+.top-form-part select {
+    box-sizing: content-box;
+}
+
+#zip {
+    width: 20%;
+    margin-right: 50%;
+}
+}
