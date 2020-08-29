@@ -1,68 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <title>The Code Review</title>
     <meta name="viewport" content="Treehouse Project 3">
     <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>The Code Review</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css"> 
 </head>
+
 <body>
+
         <header>
-            <h1>THE CODE REVIEW</h1>
+        <h1>The Code Review</h1>
         </header>
 
         <div class="container">
-            <div class="section-1">
-                <h2>Signup for our newsletter</h2>
-                <p>Get the latest news on how your code is doing right in your inbox</p>  
+
+        <div class="section-1">
+        <h2>Signup for our newsletter</h2>
+        <p>Get the latest news on how your code is doing right in your inbox</p>  
         </div>
 
         <div class="border"></div>
 
         <div class="section-2">
-            <fieldset>
-                <legend>
+            
+        <form>
+            <fieldset class="top">
+
+            <legend>
             <h2>Contact Information</h2>
             </legend>
-            <form>
                 <div class="top-form-part">
                 
                 <div class="input-section">
-                <label for="fullName">Full Name</label>
-                <input type="text" id="fullName" placeholder="Required" name="fullName" required/>
+                <label for="name">Full Name</label>
+                <input type="text" id="fullName" placeholder="Required" name="fullName" placeholder="Required" required/>
                 </div>
-                <br>
 
                 <div class="input-section">
                 <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="Required" name="email" required/>
+                <input type="email" id="email" placeholder="Required" name="email" placeholder="Required" required/>
                 </div>
-                <br>
 
                 <div class="input-section">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone"/>
+                <input type="tel" id="phone" name="phone" placeholder="(111) 111 111"/>
                 </div>
-                <br>
 
                 <div class="input-section">
                 <label for="address">Street Address</label>
-                <input type="text" for="address" id="address" name="address"/>
+                <input type="text" id="address" name="address" placeholder="Optional"/>
                 </div>
-                <br>
 
                 <div class="input-section">
                 <label for="city">City</label>
-                <input type="text" id="city" name="city"/>
+                <input type="text" id="city" name="city" placeholder="Optional"/>
                 </div>
-                <br>
 
                 <div class="input-section">
                 <label for="state">State</label>
-                <select id="state" name="state">
-                    <option value="select">Select State</option>
+                <select class="states" id="states" name="states">
+                <option value="select">Select A State</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
                     <option value="AZ">Arizona</option>
@@ -116,45 +117,37 @@
                     <option value="WY">Wyoming</option>
                 </select>
                 </div>
-                <br>
 
                 <div class="input-section">
                 <label for="zip">Zip Code</label>
-                <input type="number" id="zip" name="zip"/>
-                </div>
-                <br>
-                </fieldset>
-
+                <input type="text" id="zip" name="zip" placeholder="Optional"/>
                 </div>
 
-                <hr />
+                 </fieldset>
+
+                <hr id="bottomline"/>
                 
-                <fieldset>
-                <div class="bottom-form-part">
+                <fieldset class="bottom">
                     <legend>
                     <h2>Newsletter</h2>
                     </legend>
                     <p>Select the newsletters you would like to recieve</p>
-                    <input type="checkbox" name="news" id="htmlnews">
-                    <label for="htmlnews">HTML News</label>
-                    <br>
                     
-                    <input type="checkbox" name="news" id="css">
+                    <input type="checkbox" name="newsletter" id="html">
+                    <label for="html">HTML News</label>
+                    
+                    <input type="checkbox" name="newsletter" id="css">
                     <label for="css">CSS News</label>
-                    <br>
 
-                    <input type="checkbox" name="news" id="js">
-                    <label for="js">Javascript News</label>
-                    <br>
+                    <input type="checkbox" name="newsletter" id="javascripts">
+                    <label for="javascript">Javascript News</label>
 
                     <p>Newsletter format</p>
-                    <input type="radio" name="format" id="html">
-                    <label for="html">HTML</label>
-                    <br>
-
-                    <input type="radio" name="format" id="text">
-                    <label for="text">Plain Text</label>
-                    <br>
+                    <input type="radio" name="format" id="htmlformat">
+                    <label for="htmlformat">HTML</label>
+                
+                    <input type="radio" name="format" id="htmlformat">
+                    <label for="plainformat">Plain Text</label>
 
                     <div class="text-area">
                     <label for="comments">Other topics you'd like to hear about</label>
@@ -163,10 +156,8 @@
 
                     <button type="submit">Sign Up</button>
                     <p class="copy">Copyright The Code Review</p>
-                </div> 
                 </fieldset>
-                </form>
+            </form>
         </div>
-    </div>
-</body>
+    </body>
 </html>
