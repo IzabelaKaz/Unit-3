@@ -114,6 +114,10 @@
         background: rgb(241, 241, 241);
     }
 
+    fieldset {
+        border: none;
+    }
+
     @media screen and (min-width: 768px) {
     .top-form-part label {
         display: inline-block;
