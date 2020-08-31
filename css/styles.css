@@ -1,5 +1,4 @@
 * {
-    text-align: center;
     font-family: 'Merriweather', serif;
     }
 
@@ -10,11 +9,6 @@
         text-align: center;
         text-transform: uppercase;
     }
-    
-    label,
-    p {
-        color: rgb(134, 134, 134);
-    } 
 
     header h1 {
         color: white; 
@@ -116,6 +110,11 @@
 
     fieldset {
         border: none;
+    }
+
+    .states,
+    .states option {
+        color: rgb(134, 134, 134)
     }
 
     @media screen and (min-width: 768px) {
