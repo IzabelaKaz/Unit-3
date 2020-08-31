@@ -138,6 +138,7 @@
     .top-form-part input,
     .top-form-part select {
         width: 70%;
+        margin-bottom: 15px;
     }
 
     .top-form-part select {
