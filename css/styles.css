@@ -1,5 +1,5 @@
-* {
-    font-family: 'Merriweather', serif;
+*   {
+        font-family: 'Merriweather', serif;
     }
 
     header {
@@ -94,10 +94,10 @@
         width: 100%;
         background: rgb(50, 203, 171);
         border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 25px 0;
-    font-size: 24px;
+        border-radius: 5px;
+        color: white;
+        padding: 25px 0;
+        font-size: 24px;
     }
 
     .copy {
@@ -115,6 +115,10 @@
     .states,
     .states option {
         color: rgb(134, 134, 134)
+    }
+
+    #zip {
+    width: 40%
     }
 
     @media screen and (min-width: 768px) {
